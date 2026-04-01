@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDKs">
+      <UniqueIdentifier>{c03ad3eb-e008-4f28-a684-489cacec0109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RFTS">
+      <UniqueIdentifier>{34107f62-8a4b-4adc-9f94-33e0c703a86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{28f21429-8bb1-40e9-8f32-e07c38367300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKs\CommLib">
+      <UniqueIdentifier>{acea82af-85ce-4d1a-bb46-350583c91c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKs\CommLib\SOEM">
+      <UniqueIdentifier>{989418db-9f1a-4fe9-b06b-7b54956d964e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LogGraphDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RFTS_InterfaceDlg.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RFTS_Interface.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT_SDK\RFTS\RFTS-V1.0.h">
+      <Filter>RFTS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT_SDK\UTIL\RT_Delay.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT_SDK\CommLib\ECAT_Master.h">
+      <Filter>SDKs\CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT_SDK\UTIL\RT_Graph.h">
+      <Filter>SDKs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT_SDK\UTIL\RT_UserInterface.h">
+      <Filter>SDKs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LogGraphDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RFTS_InterfaceDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RFTS_Interface.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\RFTS\RFTS-V1.0.cpp">
+      <Filter>RFTS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\UTIL\RT_Delay.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\ECAT_Master.cpp">
+      <Filter>SDKs\CommLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\ethercatmain.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\ethercatprint.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\ethercatsoe.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\nicdrv.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\osal.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\oshw_robotous.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\ethercatbase.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\ethercatcoe.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\ethercatconfig.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\ethercatdc.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\CommLib\SOEM\ethercatfoe.c">
+      <Filter>SDKs\CommLib\SOEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\UTIL\RT_Graph.cpp">
+      <Filter>SDKs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RT_SDK\UTIL\RT_UserInterface.cpp">
+      <Filter>SDKs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\RFTS_Interface.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\RFTS_Interface.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RFTS_Interface.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
